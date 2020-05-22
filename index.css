@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header {
+    position: fixed;
+    display: inline-block;
+    height: 69px;
+    width: 1300px;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.background-image {
+    padding: 9.5px, 10px;
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    bottom: 22px;
+}
+
+.main-menu {
+    float: right;
+    word-spacing: 0.5em;
+}
+
+#featured {
+    word-spacing: 0.25em;
+}
+
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: seashell;
+}
+
+.mission {
+    background-image: url('img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 69px;
+}
+
+.mission-text {
+    text-align: center;
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+
+.gallery-text {
+    text-align: center;
+    font-weight: bold;
+}
+.gallery {
+    width: 1200px;
+    height: 600px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 300px;
+    width: 300px;
+    max-height: 200px;
+    height: 200px;
+    
+}
+
+
+figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#tea-month {
+    word-spacing: 0.1em;
+}
+
+#locations-h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    clear: both;
+}
+
+.locations {
+    background-image: url('img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+}
+
+.address-container {
+    display: inline-flex;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+  
+}
+
+.address {
+    background-color: black;
+    max-width: 300px;
+    width: 300px;
+    max-height: 300px;
+    height: 250px;
+    text-align: center;
+    opacity: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 33px;
+   
+}
+
+.contact-details {
+    text-align: center;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
